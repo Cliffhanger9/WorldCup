@@ -16,7 +16,7 @@ choropleth_map = px.choropleth(
     color= 'Wins',
     hover_name='Country',
     color_continuous_scale=px.colors.sequential.Plasma,
-    title = 'Fifa World Cup Wins by Country'
+    title = 'Fifa World Cup Wins by Country (uncoloured = 0 wins)'
 )
 
 
